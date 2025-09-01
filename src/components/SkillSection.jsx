@@ -19,7 +19,15 @@ const SkillSection = () => {
             >
               <div className="flex items-center justify-between mb-4">
                 <div className="flex items-center">
-                  <span className="text-2xl mr-3">{skill.icon}</span>
+                  <img
+                    src={skill.icon}
+                    alt={skill.name}
+                    className="w-8 h-8 mr-3"
+                    onError={(e) => {
+                      e.target.style.display = "none";
+                      e.target.nextSibling.style.display = "inline";
+                    }}
+                  />
                   <span className="text-white font-semibold">{skill.name}</span>
                 </div>
                 <span className="text-purple-400 font-bold">

@@ -4,7 +4,7 @@ const projects = [
       title: 'Dashlyx',
       description: 'A comprehensive food delivery app with dedicated user, restaurant, and admin dashboards. Features real-time order tracking, inventory management, and data-driven analytics.',
       image: '/images/dashlyx2.png',
-      technologies: ['React', 'Laravel', 'Bootstrap CSS', 'Chart.js'],
+      technologies: ['React', 'Laravel', 'Bootstrap CSS', 'Chart.js', 'Docker'],
       github: '#',
       live: 'https://dashlyx.com',
       featured: true
@@ -31,13 +31,24 @@ const projects = [
     },
     {
       id: 4,
+      title: 'Tap Grid Game',
+      description: 'A fun and addictive grid-based game where players tap on tiles to score points, featuring multiple levels, and a competitive leaderboard.',
+      image: 'https://images.unsplash.com/photo-1590845947667-381579052389?q=80&w=1170&auto=format&fit=crop',
+      technologies: ['React', 'Tailwind CSS','Supabase' ],
+      github: 'https://github.com/Promicron/gridGame',
+      live: 'https://tapgrid.vercel.app',
+      featured: false
+    },
+    {
+      id: 5,
       title: 'Quiz App',
       description: 'An interactive quiz application that allows users to take quizzes on various topics, track their scores, and improve their knowledge through engaging questions.',
       image: '/images/promicle2.png',
-      technologies: ['React', 'Tailwind CSS', 'Framer Motion'],
+      technologies: ['React', 'Bootstrap CSS', ''],
       github: '#',
       live: 'https://promicle.vercel.app',
       featured: false
-    }
+    },
+    
   ];
 export default projects;
