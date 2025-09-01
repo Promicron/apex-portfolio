@@ -17,19 +17,27 @@ const About = () => {
               Creating Digital Experiences
             </h3>
             <p className="text-gray-300 mb-6 leading-relaxed">
-              I'm a passionate software engineer with a keen eye for design and
-              a love for clean, efficient code. I specialise in building
-              scalable, data-driven applications that bridge full-stack
-              development and machine learning. With expertise in modern
-              JavaScript frameworks and a deep understanding of user experience
-              principles, I create web applications that are both beautiful and
-              functional.
+              Hi, I’m Promise
             </p>
             <p className="text-gray-300 mb-6 leading-relaxed">
-              Beyond coding, I’m passionate about solving complex problems,
-              collaborating across teams, and continuously learning new
-              technologies. My goal is to create innovative software solutions
-              that enhance how people interact with technology.
+              I’m a passionate software engineer with a keen eye for design and
+              a love for writing clean, efficient code. I specialise in building
+              scalable, data-driven applications that bring together full-stack
+              development and machine learning. With expertise in modern
+              JavaScript frameworks and a strong focus on user experience, I
+              create web applications that are not only functional but also
+              beautiful to use.
+            </p>
+            <p className="text-gray-300 mb-6 leading-relaxed">
+              I hold a Bachelor’s degree in Computer Science and a Master’s
+              degree in Artificial Intelligence, which fuel my drive to design
+              smart, innovative solutions.
+            </p>
+            <p className="text-gray-300 mb-6 leading-relaxed">
+              Beyond coding, I enjoy solving complex problems, collaborating
+              with diverse teams, and constantly exploring new technologies. My
+              ultimate goal is to build software that makes a real impact on how
+              people interact with technology.
             </p>
             <div className="flex items-center text-gray-300 mb-4">
               <MapPin className="w-5 h-5 mr-2 text-purple-400" />
