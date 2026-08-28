@@ -148,7 +148,28 @@ const projects = [
       { label: 'Features', value: 'Team Elo & Metrics' },
       { label: 'Data', value: 'Pandas Pipeline' }
     ]
-  }
+  },
+  {
+  id: 8,
+  title: "RAG-DeepReader",
+  subtitle: "Intelligent Document Analysis",
+  category: "ai",
+  status: "Web App",
+  highlight: "AI-driven document analysis and information extraction.",
+  description: "An application that leverages AI to analyze documents and extract relevant information. Provides importnat context to AI models for better results or answers.",
+  image: "/images/rag.png",
+  technologies: ["Python", "LangChain", "Groq Whisper API", "RAG", "Sentence Transformers", "FastAPI", "React", "Docker"],
+  github: "https://github.com/Promicron/DipRAG",
+  live: "",
+  featured: true,
+  accentColor: "from-purple-500/20 to-fuchsia-500/10",
+  stats: [
+    { label: "Inference", value: "Groq LLMs" },
+    { label: "Platform", value: "Web" },
+    { label: "Understanding", value: "RAG" }
+  ]
+},
+
 ];
 
 export default projects;

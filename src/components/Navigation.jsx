@@ -69,10 +69,10 @@ const Navigation = ({ activeSection, scrollToSection }) => {
 
         {/* Availability Pill & Contact CTA */}
         <div className="hidden sm:flex items-center gap-3">
-          <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-50 border border-emerald-200/60 text-emerald-700 text-xs font-medium">
+          {/* <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-50 border border-emerald-200/60 text-emerald-700 text-xs font-medium">
             <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
             <span>Available</span>
-          </div>
+          </div> */}
           <button
             onClick={() => scrollToSection("contact")}
             className="flex items-center gap-1 text-xs font-semibold px-3.5 py-1.5 rounded-full bg-zinc-900 text-white hover:bg-zinc-800 transition-all shadow-sm hover:shadow active:scale-95 cursor-pointer"
