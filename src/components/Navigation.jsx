@@ -34,7 +34,7 @@ const Navigation = ({ activeSection, scrollToSection }) => {
           onClick={() => scrollToSection("hero")}
           className="flex items-center gap-2 group cursor-pointer focus:outline-none"
         >
-          <div className="w-8 h-8 rounded-full bg-gradient-to-tr from-purple-600 via-indigo-600 to-fuchsia-500 flex items-center justify-center text-white font-bold text-sm shadow-sm group-hover:scale-105 transition-transform duration-300">
+          <div className="w-8 h-8 rounded-full bg-gradient-to-tr from-blue-600 via-indigo-600 to-cyan-500 flex items-center justify-center text-white font-bold text-sm shadow-sm group-hover:scale-105 transition-transform duration-300">
             P
           </div>
           <div className="flex flex-col text-left">
@@ -105,7 +105,7 @@ const Navigation = ({ activeSection, scrollToSection }) => {
                 }}
                 className={`w-full text-left px-4 py-2.5 rounded-xl text-sm font-medium transition-colors ${
                   activeSection === item.id
-                    ? "bg-purple-50 text-purple-700 font-semibold"
+                    ? "bg-blue-50 text-blue-700 font-semibold"
                     : "text-zinc-700 hover:bg-zinc-100"
                 }`}
               >

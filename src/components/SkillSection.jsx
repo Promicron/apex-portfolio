@@ -10,17 +10,17 @@ const SkillSection = () => {
     : skills.filter((s) => s.category === activeCategory);
 
   return (
-    <section id="skills" className="py-24 px-4 sm:px-6 lg:px-8 relative overflow-hidden bg-gradient-to-b from-transparent via-purple-50/20 to-transparent">
+    <section id="skills" className="py-24 px-4 sm:px-6 lg:px-8 relative overflow-hidden bg-gradient-to-b from-transparent via-blue-50/20 to-transparent">
       <div className="max-w-6xl mx-auto">
         {/* Section Header */}
         <div className="text-center max-w-2xl mx-auto mb-16">
-          <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-purple-100/60 border border-purple-200/60 text-purple-700 text-xs font-semibold uppercase tracking-wider mb-4">
+          <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-blue-100/60 border border-blue-200/60 text-blue-700 text-xs font-semibold uppercase tracking-wider mb-4">
             <Sparkles size={13} />
             <span>Capabilities & Core Stack</span>
           </div>
           <h2 className="text-3xl sm:text-5xl font-extrabold tracking-tight text-zinc-950 mb-4">
             Engineered for scale.{" "}
-            <span className="bg-gradient-to-r from-purple-600 to-fuchsia-600 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-blue-600 via-indigo-600 to-cyan-500 bg-clip-text text-transparent">
               Crafted with precision.
             </span>
           </h2>
@@ -100,9 +100,9 @@ const SkillSection = () => {
           {filteredSkills.map((skill) => (
             <div
               key={skill.name}
-              className="p-5 rounded-2xl bg-white border border-zinc-200/80 shadow-xs hover:shadow-md hover:border-purple-300/80 transition-all duration-200 group flex items-start gap-4"
+              className="p-5 rounded-2xl bg-white border border-zinc-200/80 shadow-xs hover:shadow-md hover:border-blue-300/80 transition-all duration-200 group flex items-start gap-4"
             >
-              <div className="w-12 h-12 rounded-xl bg-zinc-50 border border-zinc-100 p-2.5 flex items-center justify-center shrink-0 group-hover:scale-110 group-hover:bg-purple-50/50 transition-all duration-300">
+              <div className="w-12 h-12 rounded-xl bg-zinc-50 border border-zinc-100 p-2.5 flex items-center justify-center shrink-0 group-hover:scale-110 group-hover:bg-blue-50/50 transition-all duration-300">
                 <img
                   src={skill.icon}
                   alt={skill.name}
@@ -112,21 +112,21 @@ const SkillSection = () => {
                     e.target.nextSibling.style.display = "block";
                   }}
                 />
-                <Terminal size={20} className="text-purple-600 hidden" />
+                <Terminal size={20} className="text-blue-600 hidden" />
               </div>
 
               <div className="flex-1 min-w-0">
                 <div className="flex items-center justify-between gap-2 mb-1">
-                  <h4 className="font-bold text-zinc-900 text-sm sm:text-base truncate group-hover:text-purple-700 transition-colors">
+                  <h4 className="font-bold text-zinc-900 text-sm sm:text-base truncate group-hover:text-blue-700 transition-colors">
                     {skill.name}
                   </h4>
                   <span className={`text-[11px] font-semibold px-2 py-0.5 rounded-full border shrink-0 ${
                     skill.badge === "Core Stack"
-                      ? "bg-purple-50 text-purple-700 border-purple-200/70"
-                      : skill.badge === "Specialized" || skill.badge === "Research"
-                      ? "bg-fuchsia-50 text-fuchsia-700 border-fuchsia-200/70"
-                      : skill.badge === "Production"
                       ? "bg-blue-50 text-blue-700 border-blue-200/70"
+                      : skill.badge === "Specialized" || skill.badge === "Research"
+                      ? "bg-indigo-50 text-indigo-700 border-indigo-200/70"
+                      : skill.badge === "Production"
+                      ? "bg-sky-50 text-sky-700 border-sky-200/70"
                       : "bg-zinc-100 text-zinc-700 border-zinc-200/70"
                   }`}>
                     {skill.badge}

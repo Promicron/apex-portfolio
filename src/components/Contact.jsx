@@ -15,13 +15,13 @@ const Contact = () => {
     <section id="contact" className="py-24 px-4 sm:px-6 lg:px-8 relative overflow-hidden bg-gradient-to-t from-zinc-100/70 via-transparent to-transparent">
       <div className="max-w-4xl mx-auto text-center">
         {/* Header */}
-        <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-purple-100/60 border border-purple-200/60 text-purple-700 text-xs font-semibold uppercase tracking-wider mb-4">
+        <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-blue-100/60 border border-blue-200/60 text-blue-700 text-xs font-semibold uppercase tracking-wider mb-4">
           <MessageSquare size={13} />
           <span>Get in Touch</span>
         </div>
         <h2 className="text-3xl sm:text-5xl font-extrabold tracking-tight text-zinc-950 mb-4">
           Let’s build something{" "}
-          <span className="bg-gradient-to-r from-purple-600 via-indigo-600 to-fuchsia-600 bg-clip-text text-transparent">
+          <span className="bg-gradient-to-r from-blue-600 via-indigo-600 to-cyan-500 bg-clip-text text-transparent">
             exceptional.
           </span>
         </h2>
@@ -31,11 +31,11 @@ const Contact = () => {
 
         {/* Apple Main Contact Bento Card */}
         <div className="rounded-3xl bg-white border border-zinc-200/80 p-8 sm:p-12 shadow-xl mb-12 text-left relative overflow-hidden">
-          <div className="absolute top-0 right-0 w-80 h-80 bg-gradient-to-bl from-purple-200/40 via-indigo-100/30 to-transparent blur-3xl pointer-events-none" />
+          <div className="absolute top-0 right-0 w-80 h-80 bg-gradient-to-bl from-blue-200/40 via-indigo-100/30 to-transparent blur-3xl pointer-events-none" />
 
           <div className="relative z-10 flex flex-col md:flex-row items-start md:items-center justify-between gap-6 pb-8 border-b border-zinc-100">
             <div>
-              <div className="flex items-center gap-2 text-xs font-semibold text-purple-600 uppercase tracking-wider mb-1">
+              <div className="flex items-center gap-2 text-xs font-semibold text-blue-600 uppercase tracking-wider mb-1">
                 <Sparkles size={14} />
                 <span>Direct Inquiries</span>
               </div>
@@ -71,14 +71,14 @@ const Contact = () => {
           <div className="grid sm:grid-cols-3 gap-4 pt-8">
             <a
               href={`mailto:${email}`}
-              className="p-5 rounded-2xl bg-zinc-50 hover:bg-purple-50/50 border border-zinc-200/70 hover:border-purple-200 transition-all duration-200 group block"
+              className="p-5 rounded-2xl bg-zinc-50 hover:bg-blue-50/50 border border-zinc-200/70 hover:border-blue-200 transition-all duration-200 group block"
             >
-              <div className="w-10 h-10 rounded-xl bg-white border border-zinc-200/60 flex items-center justify-center text-purple-600 mb-3 shadow-xs group-hover:scale-110 transition-transform">
+              <div className="w-10 h-10 rounded-xl bg-white border border-zinc-200/60 flex items-center justify-center text-blue-600 mb-3 shadow-xs group-hover:scale-110 transition-transform">
                 <Mail size={18} />
               </div>
               <div className="flex items-center justify-between">
                 <h4 className="text-sm font-bold text-zinc-900">Email</h4>
-                <ArrowUpRight size={14} className="text-zinc-400 group-hover:text-purple-600 transition-colors" />
+                <ArrowUpRight size={14} className="text-zinc-400 group-hover:text-blue-600 transition-colors" />
               </div>
               <p className="text-xs text-zinc-500 truncate mt-0.5">{email}</p>
             </a>

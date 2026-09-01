@@ -7,21 +7,13 @@ const Hero = ({ scrollToSection }) => {
       className="relative min-h-[92vh] flex items-center justify-center pt-24 pb-16 px-4 sm:px-6 lg:px-8 overflow-hidden"
     >
       {/* Apple-style ambient background glow */}
-      <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] sm:w-[800px] h-[450px] bg-gradient-to-tr from-purple-200/40 via-indigo-100/30 to-fuchsia-100/20 blur-[130px] rounded-full pointer-events-none -z-10" />
-      <div className="absolute top-2/3 left-1/4 w-[350px] h-[350px] bg-gradient-to-br from-blue-100/30 via-cyan-100/20 to-transparent blur-[100px] rounded-full pointer-events-none -z-10" />
+      <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] sm:w-[800px] h-[450px] bg-gradient-to-tr from-blue-200/40 via-indigo-100/30 to-cyan-100/25 blur-[130px] rounded-full pointer-events-none -z-10" />
+      <div className="absolute top-2/3 left-1/4 w-[350px] h-[350px] bg-gradient-to-br from-blue-100/30 via-sky-100/20 to-transparent blur-[100px] rounded-full pointer-events-none -z-10" />
 
       <div className="max-w-4xl mx-auto text-center relative z-10 flex flex-col items-center">
-        {/* Subtle pill tag */}
-        {/* <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/90 border border-zinc-200/80 shadow-sm mb-8 backdrop-blur-md">
-          <span className="flex h-2 w-2 rounded-full bg-purple-600"></span>
-          <span className="text-xs font-semibold tracking-wide text-zinc-700 uppercase">
-            Full-Stack Software Engineer & AI Specialist
-          </span>
-        </div> */}
-
         {/* Profile Avatar with Apple-style ambient ring */}
         <div className="relative mb-8 group">
-          <div className="absolute -inset-1.5 rounded-full bg-gradient-to-r from-purple-500 via-indigo-500 to-fuchsia-500 opacity-60 blur-md group-hover:opacity-90 transition duration-500" />
+          <div className="absolute -inset-1.5 rounded-full bg-gradient-to-r from-blue-500 via-indigo-500 to-cyan-400 opacity-60 blur-md group-hover:opacity-90 transition duration-500" />
           <div className="relative w-32 h-32 sm:w-36 sm:h-36 rounded-full p-1 bg-white shadow-xl overflow-hidden">
             <img
               src="/images/tuxx2.jpg"
@@ -32,7 +24,7 @@ const Hero = ({ scrollToSection }) => {
               }}
             />
           </div>
-          <div className="absolute -bottom-1 -right-1 bg-white p-1.5 rounded-full shadow-md border border-zinc-100 text-purple-600">
+          <div className="absolute -bottom-1 -right-1 bg-white p-1.5 rounded-full shadow-md border border-zinc-100 text-blue-600">
             <Sparkles size={16} />
           </div>
         </div>
@@ -40,7 +32,7 @@ const Hero = ({ scrollToSection }) => {
         {/* Headline */}
         <h1 className="text-4xl sm:text-6xl md:text-7xl font-extrabold tracking-tight text-zinc-950 mb-6 leading-[1.1] max-w-3xl">
           Crafting intelligent systems &{" "}
-          <span className="bg-gradient-to-r from-purple-600 via-indigo-600 to-fuchsia-600 bg-clip-text text-transparent">
+          <span className="bg-gradient-to-r from-blue-600 via-indigo-600 to-cyan-500 bg-clip-text text-transparent">
             digital
           </span>{" "}
           experiences.
@@ -65,13 +57,13 @@ const Hero = ({ scrollToSection }) => {
             onClick={() => scrollToSection("skills")}
             className="px-6 py-3 rounded-full bg-white/90 text-zinc-800 border border-zinc-200/90 font-medium text-sm hover:bg-zinc-50 transition-all shadow-sm hover:shadow active:scale-95 flex items-center gap-2 cursor-pointer backdrop-blur-sm"
           >
-            <Layers size={16} className="text-purple-600" />
+            <Layers size={16} className="text-blue-600" />
             <span>Tech Stack</span>
           </button>
 
           <button
             onClick={() => scrollToSection("contact")}
-            className="px-6 py-3 rounded-full bg-purple-50 text-purple-700 border border-purple-200/70 font-medium text-sm hover:bg-purple-100/70 transition-all shadow-sm active:scale-95 flex items-center gap-2 cursor-pointer"
+            className="px-6 py-3 rounded-full bg-blue-50 text-blue-700 border border-blue-200/70 font-medium text-sm hover:bg-blue-100/70 transition-all shadow-sm active:scale-95 flex items-center gap-2 cursor-pointer"
           >
             <Mail size={16} />
             <span>Get in Touch</span>

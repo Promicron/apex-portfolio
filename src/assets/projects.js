@@ -20,7 +20,7 @@ const projects = [
     github: '#',
     live: 'https://dashlyx.com',
     featured: true,
-    accentColor: 'from-amber-500/20 to-orange-500/10',
+    accentColor: 'from-blue-500/20 to-indigo-500/10',
     stats: [
       { label: 'Dashboards', value: '3 Dedicated Roles' },
       { label: 'Tracking', value: 'Real-Time Telemetry' },
@@ -40,7 +40,7 @@ const projects = [
     github: '#',
     live: 'https://etcvibes.com',
     featured: true,
-    accentColor: 'from-indigo-500/20 to-purple-500/10',
+    accentColor: 'from-blue-500/20 to-cyan-500/10',
     stats: [
       { label: 'Intelligence', value: 'OpenAI Powered' },
       { label: 'Analytics', value: 'Visual Insights' },
@@ -60,11 +60,31 @@ const projects = [
     github: 'https://github.com/Promicron/loqui',
     live: '',
     featured: true,
-    accentColor: 'from-purple-500/20 to-fuchsia-500/10',
+    accentColor: 'from-indigo-500/20 to-blue-500/10',
     stats: [
       { label: 'Inference', value: 'Groq LPUs' },
       { label: 'Platform', value: 'iOS & Android' },
       { label: 'Audio', value: 'Voice-to-Text' }
+    ]
+  },
+  {
+    id: 8,
+    title: 'RAG-DeepReader',
+    subtitle: 'Intelligent Document Analysis',
+    category: 'ai',
+    status: 'Web App',
+    highlight: 'AI-driven document analysis and contextual information extraction',
+    description: 'An application that leverages AI to analyze documents and extract relevant information. Provides important context to AI models for high-accuracy semantic retrieval and reasoning.',
+    image: '/images/rag.png',
+    technologies: ['Python', 'LangChain', 'Groq Whisper API', 'RAG', 'Sentence Transformers', 'FastAPI', 'React', 'Docker'],
+    github: 'https://github.com/Promicron/DipRAG',
+    live: '',
+    featured: true,
+    accentColor: 'from-sky-500/20 to-indigo-500/10',
+    stats: [
+      { label: 'Inference', value: 'Groq LLMs' },
+      { label: 'Platform', value: 'Web & API' },
+      { label: 'Understanding', value: 'RAG Vector Index' }
     ]
   },
   {
@@ -80,7 +100,7 @@ const projects = [
     github: 'https://github.com/Promicron/estmage',
     live: '',
     featured: false,
-    accentColor: 'from-rose-500/20 to-pink-500/10',
+    accentColor: 'from-blue-500/20 to-sky-500/10',
     stats: [
       { label: 'Model', value: 'Deep CNN' },
       { label: 'Vision', value: 'OpenCV Preprocessing' },
@@ -148,28 +168,7 @@ const projects = [
       { label: 'Features', value: 'Team Elo & Metrics' },
       { label: 'Data', value: 'Pandas Pipeline' }
     ]
-  },
-  {
-  id: 8,
-  title: "RAG-DeepReader",
-  subtitle: "Intelligent Document Analysis",
-  category: "ai",
-  status: "Web App",
-  highlight: "AI-driven document analysis and information extraction.",
-  description: "An application that leverages AI to analyze documents and extract relevant information. Provides importnat context to AI models for better results or answers.",
-  image: "/images/rag.png",
-  technologies: ["Python", "LangChain", "Groq Whisper API", "RAG", "Sentence Transformers", "FastAPI", "React", "Docker"],
-  github: "https://github.com/Promicron/DipRAG",
-  live: "",
-  featured: true,
-  accentColor: "from-purple-500/20 to-fuchsia-500/10",
-  stats: [
-    { label: "Inference", value: "Groq LLMs" },
-    { label: "Platform", value: "Web" },
-    { label: "Understanding", value: "RAG" }
-  ]
-},
-
+  }
 ];
 
 export default projects;

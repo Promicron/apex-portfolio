@@ -54,7 +54,7 @@ function App() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-[#FBFBFD] text-[#1D1D1F] relative selection:bg-purple-500/20 selection:text-purple-900 overflow-x-hidden">
+    <div className="min-h-screen bg-[#FBFBFD] text-[#1D1D1F] relative selection:bg-blue-500/20 selection:text-blue-900 overflow-x-hidden">
       {/* Floating Apple-style Navigation */}
       <Navigation
         activeSection={activeSection}

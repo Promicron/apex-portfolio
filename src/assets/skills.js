@@ -13,7 +13,7 @@ export const featuredHighlights = [
     description: "Crafting fluid, high-performance interfaces with React, React Native, and TypeScript.",
     tag: "UI / UX Engineering",
     skills: ["React", "TypeScript", "React Native", "Tailwind CSS", "Next.js/Vite"],
-    color: "from-blue-500/10 via-indigo-500/5 to-purple-500/10",
+    color: "from-blue-500/10 via-indigo-500/5 to-cyan-500/10",
     accent: "text-blue-600",
     borderAccent: "border-blue-200/60"
   },
@@ -23,9 +23,9 @@ export const featuredHighlights = [
     description: "Designing intelligent agents, computer vision pipelines, and LLM integrations (MSc Artificial Intelligence).",
     tag: "Machine Learning",
     skills: ["Python", "Groq AI", "OpenCV", "PyBullet", "OpenAI APIs"],
-    color: "from-purple-500/10 via-fuchsia-500/5 to-pink-500/10",
-    accent: "text-purple-600",
-    borderAccent: "border-purple-200/60"
+    color: "from-indigo-500/10 via-blue-500/5 to-cyan-500/10",
+    accent: "text-indigo-600",
+    borderAccent: "border-indigo-200/60"
   },
   {
     category: "backend",
@@ -33,9 +33,9 @@ export const featuredHighlights = [
     description: "Architecting resilient RESTful APIs, asynchronous services, and robust databases.",
     tag: "Full-Stack Backbone",
     skills: ["Node.js", "Python / Flask", "Laravel", "MongoDB", "Supabase"],
-    color: "from-emerald-500/10 via-teal-500/5 to-cyan-500/10",
-    accent: "text-emerald-600",
-    borderAccent: "border-emerald-200/60"
+    color: "from-sky-500/10 via-teal-500/5 to-blue-500/10",
+    accent: "text-sky-600",
+    borderAccent: "border-sky-200/60"
   }
 ];
 
@@ -93,7 +93,7 @@ const skills = [
     name: 'AI & LLM Integration',
     category: 'ai_data',
     badge: 'Specialized',
-    icon: 'https://api.iconify.design/lucide:sparkles.svg?color=%239333ea',
+    icon: 'https://api.iconify.design/lucide:sparkles.svg?color=%232563eb',
     highlight: 'Groq, OpenAI APIs, prompt chaining & real-time audio transcription'
   },
   {

@@ -6,8 +6,8 @@ const About = () => {
       icon: Code2,
       title: "Clean Architecture",
       desc: "Writing modular, type-safe, and self-documenting code built for longevity and scale.",
-      color: "text-purple-600",
-      bg: "bg-purple-50"
+      color: "text-blue-600",
+      bg: "bg-blue-50"
     },
     {
       icon: Brain,
@@ -20,15 +20,15 @@ const About = () => {
       icon: Sparkles,
       title: "Apple-Grade UX",
       desc: "Obsessing over micro-interactions, responsive fluidity, and intuitive visual ergonomics.",
-      color: "text-fuchsia-600",
-      bg: "bg-fuchsia-50"
+      color: "text-cyan-600",
+      bg: "bg-cyan-50"
     },
     {
       icon: Zap,
       title: "Performance First",
       desc: "Minimizing latency and bundle bloat with efficient state management and optimized queries.",
-      color: "text-amber-600",
-      bg: "bg-amber-50"
+      color: "text-sky-600",
+      bg: "bg-sky-50"
     }
   ];
 
@@ -37,13 +37,13 @@ const About = () => {
       <div className="max-w-6xl mx-auto">
         {/* Section Header */}
         <div className="text-center max-w-2xl mx-auto mb-16">
-          <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-purple-100/60 border border-purple-200/60 text-purple-700 text-xs font-semibold uppercase tracking-wider mb-4">
+          <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-blue-100/60 border border-blue-200/60 text-blue-700 text-xs font-semibold uppercase tracking-wider mb-4">
             <Compass size={13} />
             <span>Background & Engineering Philosophy</span>
           </div>
           <h2 className="text-3xl sm:text-5xl font-extrabold tracking-tight text-zinc-950 mb-4">
             Building software with{" "}
-            <span className="bg-gradient-to-r from-purple-600 to-fuchsia-600 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-blue-600 via-indigo-600 to-cyan-500 bg-clip-text text-transparent">
               curiosity & purpose.
             </span>
           </h2>
@@ -57,7 +57,7 @@ const About = () => {
           {/* Main Story Bento (7 cols) */}
           <div className="md:col-span-7 rounded-3xl bg-white border border-zinc-200/80 p-8 sm:p-10 shadow-sm flex flex-col justify-between">
             <div>
-              <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-purple-600 mb-4">
+              <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-blue-600 mb-4">
                 <Sparkles size={15} />
                 <span>About Promise</span>
               </div>
@@ -79,7 +79,7 @@ const About = () => {
 
             <div className="pt-6 mt-6 border-t border-zinc-100 flex items-center justify-between">
               <div className="flex items-center text-xs font-medium text-zinc-600 gap-2">
-                <MapPin size={15} className="text-purple-600" />
+                <MapPin size={15} className="text-blue-600" />
                 <span>Remote Worldwide • London / International Timezones</span>
               </div>
               <span className="inline-flex items-center gap-1.5 text-xs font-semibold px-3 py-1 rounded-full bg-emerald-50 text-emerald-700 border border-emerald-200/60">
@@ -93,16 +93,16 @@ const About = () => {
           <div className="md:col-span-5 flex flex-col gap-6">
             {/* Education Bento Card */}
             <div className="rounded-3xl bg-gradient-to-br from-zinc-900 to-zinc-950 text-white p-7 sm:p-8 shadow-md relative overflow-hidden">
-              <div className="absolute top-0 right-0 w-48 h-48 bg-purple-500/10 rounded-full blur-3xl pointer-events-none" />
+              <div className="absolute top-0 right-0 w-48 h-48 bg-blue-500/10 rounded-full blur-3xl pointer-events-none" />
               
-              <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-purple-400 mb-6">
+              <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-blue-400 mb-6">
                 <GraduationCap size={16} />
                 <span>Academic Foundation</span>
               </div>
 
               <div className="space-y-6">
-                <div className="border-l-2 border-purple-500/60 pl-4">
-                  <span className="text-xs text-purple-300 font-mono">POSTGRADUATE</span>
+                <div className="border-l-2 border-blue-500/60 pl-4">
+                  <span className="text-xs text-blue-300 font-mono">POSTGRADUATE</span>
                   <h4 className="text-base font-bold text-white mt-0.5">
                     Master of Science (MSc) in Artificial Intelligence
                   </h4>
